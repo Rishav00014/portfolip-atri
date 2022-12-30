@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Users\Rishav\.atri\webapp-builder-win.exe.v0.0.78 C:\snapshot\webapp-builder\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\Rishav\.virtualenvs\portfolio_website-vtze6Mtc\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\PROGRA~2\RATIONAL\RATION~1\NUTCROOT\mksnt;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Rational\ClearQuest;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\Rishav\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Rishav\AppData\Local\Programs\Python\Python310\;C:\Users\Rishav\AppData\Local\Microsoft\WindowsApps;C:\Users\Rishav\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Users\Rishav\AppData\Roaming\npm;C:\Users\Rishav\.dotnet\tools;C:\Program Files\heroku\bin;C:\Users\Rishav\AppData\Local\Programs\mongosh\
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.25.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+
+npm manifest: 
+  {
+    "name": "atri-react-app-template",
+    "version": "0.0.0",
+    "private": "true",
+    "scripts": {
+      "buildApp": "atri-react-app-build-app",
+      "buildAppNode": "atri-react-app-build-server",
+      "buildServer": "cd server && tsc",
+      "build": "yarn run buildApp && yarn run buildAppNode",
+      "devServer": "node dist/server/index.js --dev",
+      "server": "node dist/server/index.js",
+      "dev": "atri-react-app-dev-server"
+    },
+    "dependencies": {
+      "@atrilabs/app-scripts": "^0.0.78",
+      "@atrilabs/core": "^0.0.78",
+      "chokidar": "^3.5.3",
+      "http-proxy-middleware": "^2.0.6",
+      "react": "18.0.0",
+      "react-dom": "18.0.0",
+      "react-router-dom": "^6.3.0",
+      "ws": "^8.8.0",
+      "zustand": "^4.0.0-rc.1",
+      "@atrilabs/react-component-manifests": "^0.0.78"
+    },
+    "devDependencies": {
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-config-react-app": "^7.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
